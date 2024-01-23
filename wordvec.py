@@ -1,5 +1,5 @@
 # CS162 HW1 Answer
-
+#Hi
 from __future__ import annotations
 import argparse
 import logging
@@ -36,6 +36,7 @@ log = logging.getLogger(Path(__file__).stem)  # The only okay global variable.
 # In `parse_args`, we provided two command line options to control the logging level.
 # The default level is 'INFO'. You can lower it to 'DEBUG' if you pass '--verbose'
 # and you can raise it to 'WARNING' if you pass '--quiet'. 
+
 
 
 def parse_args() -> argparse.Namespace:
